@@ -15,3 +15,43 @@
 .icon-navtop i{
     margin-inline: 0.7rem;
 }
+
+/* MAIN CONTENT */
+main{
+    height: 100vh;
+}
+
+.main-content {
+    height: calc(100vh - 54px);
+    background-color: lightgrey;
+    overflow-y: auto;
+}
+
+.blue-cont{
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    width: 50px;
+    height: calc(100vh - 54px);
+    background-color: rgb(11, 35, 57);
+    background-image: url(../img/sidebar-bg.png) ;
+    overflow-y: hidden;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        width: 170px;
+    }
+
+    .main-content {
+        width: calc(100% - 170px);
+    }
+}
+  
+  
+  
+  
+  
