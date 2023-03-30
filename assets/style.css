@@ -1,0 +1,17 @@
+.logo-boolean{
+    display: flex;
+}
+
+.logo-boolean img{
+    margin-inline: 0.7rem;
+}
+
+.icon-navtop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-navtop i{
+    margin-inline: 0.7rem;
+}
