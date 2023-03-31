@@ -13,7 +13,8 @@
 </head>
 
 <body>
-    <main>
+    <header>
+        <!-- Search navbar -->
         <nav class="navbar bg-body-tertiary">
             <form class="container-fluid">
 
@@ -51,69 +52,54 @@
 
             </form>
         </nav>
+    </header>
 
-        <div class="d-flex">
 
-            <!-- menù laterale  -->
-            <div class="container-fluid">
+    <main>
+        <div class="d-flex ">
+            <!-- Menu navigation left  -->
+            <div class="side-container">
                 <div class="row flex-nowrap">
-                    <div class="bg-dark col-auto  sidebar">
-                        <div class="dark-bg p-2">
+                    <div class="col-auto d-flex flex-column justify-content-between bg-side-left ">
+                        <div class="p-2">
                             <ul class="nav nav-pills flex-column mt-4">
                                 <li class="nav-items">
                                     <a href="#" class="nav-link text-white">
-                                        <i class="fs-4 bi bi-house-door-fill"></i><span class="fs-4 ms-3 d-none d-sm-inline">Home</span>
+                                        <i class="fs-6 bi bi-house-door-fill"></i><span
+                                            class="fs-6 ms-3 d-none d-sm-inline">Home</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link text-white">
-                                        <i class="fs-4 bi bi-graph-up"></i><span class="fs-4 ms-3 d-none d-sm-inline">Stats</span>
+                                        <i class="fs-6 bi bi-graph-up"></i><span
+                                            class="fs-6 ms-3 d-none d-sm-inline">Stats</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link text-white">
-                                        <i class="fs-4 bi bi-reception-4"></i><span class="fs-4 ms-3 d-none d-sm-inline">Signals</span>
+                                        <i class="fs-6 bi bi-reception-4"></i><span
+                                            class="fs-6 ms-3 d-none d-sm-inline">Signals</span>
                                     </a>
                                 </li>
                             </ul>
                         </div>
 
-                    </div>
-
-                </div>
-            </div>
-        
-            <!-- <div class="sidebar text-light">
-                <div class="container d-flex">
-                    <div class="row flex-column justify-content-between aling-items-center ">
-                        <ul>
-                            <li>
-                                <i class="bi bi-house-door-fill"></i>
-                                <a class="text-decoration-none d-none d-md-block" href="#">Home</a>
-                            </li>
-
-                            <li>
-                                <i class="fa-solid fa-chart-simple d-md-none"></i>
-                                <a class="text-decoration-none d-none d-md-block" href="#">Stats</a>
-                            </li>
-
-                            <li>
-                                <i class="fa-solid fa-signal d-md-none"></i>
-                                <a class="text-decoration-none d-none d-md-block" href="#">Signals</a>
-                            </li>
-                        </ul>
-    
-                        <div>
-                            <i class="fa-solid fa-gear d-md-none"></i>
-                            <a class="text-decoration-none d-none d-md-block" href="#">Admin</a>
+                        <div class="icon-down">
+                            <ul class="nav nav-pills flex-column mt-4">
+                                <li class="nav-items">
+                                    <a href="#" class="nav-link text-white">
+                                        <i class="fs-6 bi bi-gear-fill"></i><span
+                                            class="fs-6 ms-3 d-none d-sm-inline">Admin</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
 
-            <!-- Main content  -->
-
-            <!-- <div class="main-content">
+            <!-- Container blue -->
+            <div class="main-content">
                 <div class="bar-header bg-primary text-light blue-cont">
                     <div class="container-fluid ">
                         <div class="row">
@@ -142,9 +128,69 @@
                     </div>
                 </div>
 
-                <div class="principal-content"></div>
-            </div> -->
+                <!-- Cards -->
+                <div class="all-cards">
+                    <div class="display-fluid">
+
+                        <div class="col-8">
+                            <div class="card">
+                                <div class="card-header">
+                                    Prossime Classi
+                                </div>
+                                <div class="card-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Nome</th>
+                                                <th scope="col">Data inizio</th>
+                                                <th scope="col">ROI</th>
+                                                <th scope="col">Stato</th>
+                                                <th scope="col">Azioni</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+
+                                                <td>Classe 75</td>
+                                                <td>15 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>Icone</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Classe 75</td>
+                                                <td>15 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>Icone</td>
+                                            </tr>
+                                            <tr>
+
+                                                <td>Classe 75</td>
+                                                <td>15 Feb 2021</td>
+                                                <td>20%</td>
+                                                <td>Done</td>
+                                                <td>Icone</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    
+                </div>
+
+            </div>
+
+
+
         </div>
+
     </main>
 
 

@@ -17,14 +17,25 @@
 }
 
 /* MAIN CONTENT */
-.sidebar {
+/* .side-container{
+    width: 500px;
+} */
+
+.bg-side-left {
     height: calc(100vh - 54px);
     background-color: rgb(11, 35, 57);
     background-image: url(../img/sidebar-bg.png);
 }
 
 .nav-pills li a:hover{
-    background-color: aqua;
+    background-color: rgba(211, 211, 211, 0.514);
+    border-radius: 0%;
+}
+
+.main-content {
+    width: calc(100% - 130px);
+    background-color: lightgrey;
+    overflow-y: auto;
 }
 
   
