@@ -38,6 +38,9 @@
     overflow-y: auto;
 }
 
+.table tbody img {
+    height: 1.6em;
+}
   
   
   
